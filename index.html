@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="box1">
+      <div class="head">
+        <div class="img">
+          <img src="./images/logo.svg" alt="logo-img">
+        </div>
+      </div>
+      <div class="mobile">
+        <div class="img3">
+          <img src="./images/hero-mobile.jpg" alt="hero-moblie-image">
+        </div>
+      </div>
+      <div class="content">
+        <div class="heading">
+          <h1 class="h1"><span class="s1">We're</span><br><span class="s2"> coming </span><br><span class="s3">
+              soon</span></h1>
+        </div>
+        <div class="para">
+          <p>Hello fellow shoppers! We're currently building our new <br>fashion store.
+            Add your email below to stay up-to-date<br> with announcements and our launch deals.</p>
+        </div>
+        <div class="input">
+          <form onsubmit="return validate()">
+            <input type="text" id="emailId" placeholder="Email Address">
+            <img class="eror" id="eror" src="./images/icon-error.svg" alt="">
+            <button class="btn" id="btn" type="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+            <!--responisve -->
+            <div class="btnn">
+              <!-- <img class="eror1" id="eror" src="./images/icon-error.svg" alt=""> -->
+            <button class="btn1" id="btn" type="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+            </div>
+          </form>
+          <div class="error">
+            <p id="e1"></p>
+            <p id="e2"></p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="box2">
+      <div class="img2">
+        <img src="./images/hero-desktop.jpg" alt="hero-image">
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
