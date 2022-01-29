@@ -28,14 +28,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./output/act.png)
+<img src ="./output/act.png" alt="active">
+<img src ="./output/d.png">
+<img src ="./output/m.png">
+<!-- ![](./output/act.png)
 ![](./output/d.png)
-![](./output/m.png)
+![](./output/m.png) -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://arunsingh009.github.io/FrontEndMentorChallenge6/)
+- Live Site URL: [Add live site URL here](https://arunsingh009.github.io/FrontEndMentorChallenge6/)
 
 ## My process
 
